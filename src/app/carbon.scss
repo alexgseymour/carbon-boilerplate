@@ -20,7 +20,6 @@
   @include theme.theme(themes.$g100);
 }
 
-// Smooth theme transitions
 :root {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -30,7 +29,6 @@
     border-color 0.3s ease;
 }
 
-// Custom scrollbar styling for different themes
 :root[data-carbon-theme="g90"],
 :root[data-carbon-theme="g100"] {
   scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
@@ -49,7 +47,6 @@
   }
 }
 
-// Theme-aware sticky sidebar
 .sticky-sidebar {
   position: sticky;
   top: 1rem;
@@ -58,7 +55,6 @@
   padding: 1rem;
 }
 
-// Mobile navigation
 @media (max-width: 672px) {
   .sticky-sidebar {
     position: relative;

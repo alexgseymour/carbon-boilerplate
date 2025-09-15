@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
-import "./globals.css";
 import "./carbon.scss";
 import { ThemeProvider } from "@/providers/ThemeProvider";
 
@@ -33,7 +32,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body
-        className={`${plexSans.variable} ${plexMono.variable} antialiased cds--layout`}
+        className={`${plexSans.variable} ${plexMono.variable}`}
         suppressHydrationWarning
       >
         <ThemeProvider>{children}</ThemeProvider>
