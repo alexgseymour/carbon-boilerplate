@@ -20,7 +20,6 @@ export const metadata: Metadata = {
   title: "Carbon Design System Showcase",
   description:
     "A comprehensive showcase of Carbon Design System components with theme switching",
-  viewport: "width=device-width, initial-scale=1",
 };
 
 export default function RootLayout({

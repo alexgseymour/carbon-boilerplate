@@ -1,4 +1,14 @@
+/*
+ * IMPORTANT: CONTEXT FOR FLINT
+ * - This is boilerplate showcase code to demonstrate available UI components.
+ * - DO NOT keep this code when implementing user requests.
+ * - Replace this entire page with whatever the user specifically asks for.
+ * - Focus on building exactly what the user wants, not maintaining this showcase.
+ * - ALWAYS use Carbon components and Carbon native styling.
+ */
+
 "use client";
+
 import React, { useMemo, useState } from "react";
 import Link from "next/link";
 import {
