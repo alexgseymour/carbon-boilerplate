@@ -21,10 +21,6 @@ export const metadata: Metadata = {
   description:
     "A comprehensive showcase of Carbon Design System components with theme switching",
   viewport: "width=device-width, initial-scale=1",
-  themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
-    { media: "(prefers-color-scheme: dark)", color: "#262626" },
-  ],
 };
 
 export default function RootLayout({
